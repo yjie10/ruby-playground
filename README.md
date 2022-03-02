@@ -118,3 +118,8 @@ def method_name(param1="default", param2 ...)
 
 end
 ```
+
+### Return
+
+- like other programming languages, code after `return` statement won't get executed.
+- can return multiple values (essentially like returning an array).
