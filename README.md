@@ -75,16 +75,33 @@
 - can store different data types inside the array.
 
 ```
-variable_name = Array[element1, element2, element3 ...]
+array_name = Array[element1, element2, element3 ...]
 ```
 
 - can access backwards by using negative values (这点和 python 一样).
 - can also decalre an array without initializing.
 
 ```
-variable_name = Array.new
+array_name = Array.new
 ```
 
 - array methods 大致和 string methods 一样。
 - can use **.sort()** as well.
 - cannot use sort on an array that contains different data types though because ruby won't know how to compare them.
+
+### Hashes
+
+- Object -- key value pairs.
+- aka dictionaries (和 python 一样).
+- keys need to be unique.
+
+```
+hash_name = {
+  key1 => value1,
+  key2 => value2,
+  :key3 => value3
+}
+
+hash_name[:key3] # works
+hash_name[key1] # works
+```
