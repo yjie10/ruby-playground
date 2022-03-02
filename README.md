@@ -105,3 +105,16 @@ hash_name = {
 hash_name[:key3] # works
 hash_name[key1] # works
 ```
+
+### Methods
+
+```
+def method_name
+
+end
+
+# with param & default param
+def method_name(param1="default", param2 ...)
+
+end
+```
