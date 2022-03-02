@@ -128,3 +128,4 @@ end
 
 - keywords: `if`, `else`, `and`, `or`, `elsif`
 - **elsif:** `else if`
+- comparison: `>=`, `>`,`<=`, `<`, `==`, "!="
