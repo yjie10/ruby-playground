@@ -11,7 +11,7 @@
 - when creating a variable in ruby, we ...
 
   - give the name of the variable,
-  - multiple words separated by underscore `_`,
+  - multiple words separated by underscore `_`, (aka snake_case)
   - what to store inside the variable.
 
 - if we are using text + variable to display information, we need to wrap the whole statement with parantheses.
@@ -49,6 +49,7 @@
   - %: 老朋友了。
 
 - in ruby, to print a number with string (two different data types in general) will need to convert the number to a string by using **.to_s**.
+- and to convert to integer (say getting a user input of number), can be done by using **.to_i**, and **.to_f** for float.
 
 - numbers methods ...
 
@@ -67,3 +68,4 @@
 - **gets:** `takes an user input (can be stored in a variable for later use)`
 - whenever the user press "enter" after gets, ruby will take it as a new line.
 - **.chomp()** can be used to get rid of this behavior.
+- ruby automatically converts whatever the user entered into a string.
