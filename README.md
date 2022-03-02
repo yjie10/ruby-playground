@@ -123,3 +123,8 @@ end
 
 - like other programming languages, code after `return` statement won't get executed.
 - can return multiple values (essentially like returning an array).
+
+### if statements
+
+- keywords: `if`, `else`, `and`, `or`, `elsif`
+- **elsif:** `else if`
