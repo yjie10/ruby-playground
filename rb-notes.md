@@ -39,3 +39,25 @@
   - **.length():** `returns the length of the string`
   - **.include? "":** `returns true or false`
   - **.index():** `returns the index of the character(s)`
+
+### Math & Numbers
+
+- arithmetics on numbers ...
+
+  - addition, subtraction, multiplication, division
+  - **n\*\*m:** `exponents`
+  - %: 老朋友了。
+
+- in ruby, to print a number with string (two different data types in general) will need to convert the number to a string by using **.to_s**.
+
+- numbers methods ...
+
+  - **.abs():** `returns absolute val`
+  - **.round():** `rounds the number`
+  - **.ceil() / .floor():** `returns rounding of the higher / lower number`
+
+- can use functions from the `Math` class ...
+
+  - **Math.sqrt(n):** `returns the square root of the number n`
+
+- operation performed between integer and integer will return integer, between integer and float will return a float.
