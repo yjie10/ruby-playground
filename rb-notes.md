@@ -61,3 +61,9 @@
   - **Math.sqrt(n):** `returns the square root of the number n`
 
 - operation performed between integer and integer will return integer, between integer and float will return a float.
+
+### User Input
+
+- **gets:** `takes an user input (can be stored in a variable for later use)`
+- whenever the user press "enter" after gets, ruby will take it as a new line.
+- **.chomp()** can be used to get rid of this behavior.
