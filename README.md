@@ -159,3 +159,11 @@ array.each do |element|
   # code
 end
 ```
+
+### Reading Files
+
+```
+File.open(name_of_file, mode) do |variable_name|
+
+# mode: read -> r,
+```
