@@ -128,4 +128,34 @@ end
 
 - keywords: `if`, `else`, `and`, `or`, `elsif`
 - **elsif:** `else if`
-- comparison: `>=`, `>`,`<=`, `<`, `==`, "!="
+- comparison: `>=`, `>`,`<=`, `<`, `==`, `!=`
+
+### Case Expressions (Skipped)
+
+### While Loops
+
+- loop through the code as long as the condition remains true.
+
+```
+while condition
+  # code
+end
+```
+
+### For Loops
+
+- allows us to loop through a collection.
+
+```
+for element in array
+  # code
+end
+```
+
+- can also use each.
+
+```
+array.each do |element|
+  # code
+end
+```
