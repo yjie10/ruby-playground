@@ -37,3 +37,5 @@
   - **.strip():** `removes white spaces`
 
   - **.length():** `returns the length of the string`
+  - **.include? "":** `returns true or false`
+  - **.index():** `returns the index of the character(s)`
