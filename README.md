@@ -1,5 +1,11 @@
 # Ruby
 
+https://ruby-doc.org/
+ri <topic> # documentation from the command line
+
+- An object-oriented programming language.
+- No "primitives".
+
 ### print vs puts
 
 - first introduced: puts and print;
