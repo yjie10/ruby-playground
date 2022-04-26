@@ -22,3 +22,34 @@
 - Local | `variable`
 - Block | `variable`
   - If it's being used inside a block of code.
+
+# Numbers
+
+- Integers.
+- Floating-point numbers ("floats").
+- Both _integers_ and _floating-point numbers_ inherit from a parent called _Numeric_.So they share behaviors that are in the numeric class, but they each have their own behaviors as well.
+
+### Integers
+
+- Follows the standard math rules: PEMDAS.
+- Integer Methods:
+  - `.class:` returns the class of the object.
+  - `.next:` returns the next value of the integer.
+  - `.abs:` return the absolute value of the integer.
+
+### Floats
+
+- A number that has a decimal in it.
+- Keeps the prevision and therefore `integer + float = float`.
+- Float Methods:
+  - `round:` follow rounding rules.
+  - `floor:` would always round down.
+  - `ceil:` would always round up.
+
+### Strings
+
+- A sequence of characters.
+- Can perform `Concatenation` on strings to join them together.
+- To join two strings:
+  - By `+` (plus).
+  - By `<<` (append) operator. Modifies the original variable.
