@@ -51,7 +51,8 @@ scores.keys.first.class
 
 # Key os __always__ a symbol in shorthand
 # Cannot use integers as keys
-# :100 is not a valid symbol name
+# :100 is not a valid symbol name because symbols begins with a colon followed by a letter. 
+# but using integer as the key in a hash is completely valid. 
 
 
 
