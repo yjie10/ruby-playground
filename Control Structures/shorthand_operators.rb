@@ -1,7 +1,7 @@
 # Conditionals: Ternary Operator
 # useful for simple conditionals, making it simple and short
 
-puts count == 1 ? "people" : "people"
+puts count == 1 ? "person" : "people"
 
 # same as
 if  count == 1
